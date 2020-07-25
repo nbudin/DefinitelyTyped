@@ -24,6 +24,7 @@ interface Inflected {
     pluralize(word: string, locale?: string): string;
     singularize(word: string, locale?: string): string;
     camelize(term: string, uppercaseFirstLetter?: boolean): string;
+    capitalize(word?: string): string;
     underscore(camelCaseWord: string): string;
     humanize(lowerCaseAndUnderscoredWord: string,
         options?: Options.Humanize): string;

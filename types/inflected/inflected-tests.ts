@@ -45,3 +45,6 @@ Inflector.transliterate('Ærøskøbing')  // => 'AEroskobing'
 Inflector.parameterize('Donald E. Knuth')                      // => 'donald-e-knuth'
 Inflector.parameterize('Donald E. Knuth', { separator: '+' })  // => 'donald+e+knuth'
 
+Inflector.capitalize('uncapitalized')       // => 'Uncapitalized'
+Inflector.capitalize('uncapitalized words') // => 'Uncapitalized words'
+Inflector.capitalize()                      // => ''
